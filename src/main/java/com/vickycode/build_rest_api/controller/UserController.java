@@ -12,5 +12,9 @@ public class UserController {
     public String SayHello(){
         return "Hello World";
     }
+    @GetMapping("/dsa")
+    public String DSAHello(){
+        return "Prepare DSA Rounds";
+    }
 
 }
