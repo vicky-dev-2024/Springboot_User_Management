@@ -24,5 +24,9 @@ public class UserController {
     public String FrontEnd(){
         return "Hello Front";
     }
+    @GetMapping("/devops")
+    public String Devops(){
+        return "Hello Devops";
+    }
 
 }
