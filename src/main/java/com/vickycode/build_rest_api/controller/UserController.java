@@ -16,5 +16,9 @@ public class UserController {
     public String DSAHello(){
         return "Prepare DSA Rounds";
     }
+    @GetMapping("backend")
+    public String BackendHello(){
+        return "Hello Backend";
+    }
 
 }
